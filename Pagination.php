@@ -37,10 +37,5 @@ class Pagination {
 		return $this->response;
 	}
 
-	public function clear() {
-		$this->data = array();
-		$this->response = array();
-	}
-
 }
 ?>
